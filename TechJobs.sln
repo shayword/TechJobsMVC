@@ -1,16 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{359DDFC7-BDB1-4B02-8FC3-C38BDCFF7E9F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B11B5507-A215-43B7-B123-0FFE5317A9E4}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TechJobs", "src\TechJobs\TechJobs.xproj", "{14778719-D230-4A24-BD3B-704D11DA20D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechJobs", "src\TechJobs\TechJobs.csproj", "{14778719-D230-4A24-BD3B-704D11DA20D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

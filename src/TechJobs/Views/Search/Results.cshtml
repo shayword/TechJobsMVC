@@ -1,0 +1,18 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<table>
+    @foreach (Dictionary<string, string> job in ViewBag.jobs)
+    {
+        <tr>
+        @foreach (var key in job.Keys)
+        {
+            <td>@Html.Raw(job[key].Replace(ViewBag.searchTerm, "<b>" + ViewBag.searchTerm + "</b>"))</td>
+        }
+        </tr>
+    }
+</table>
+<br />
+<b>@ViewBag.jobs.Count</b> result@(ViewBag.jobs.Count == 1 ? "" : "s")
